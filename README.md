@@ -22,9 +22,9 @@ The MongoDB database contains data about bins (waste containers), with the follo
 
 ### Getting bins with given distance and given material
 **HTTP Method:** GET  
-**Parameters:** None
-**URL:** /api/bins/
-**Request Body:**
+**Parameters:** None  
+**URL:** /api/bins/  
+**Request Body:**  
 ```json
 
 {
@@ -37,10 +37,10 @@ The MongoDB database contains data about bins (waste containers), with the follo
 ```
 
 ### Adding a new bin with a given location and accepted materials
-**HTTP Method:** POST
-**Parameters:** None
-**URL:** /api/bins/
-**Request Body:**
+**HTTP Method:** POST  
+**Parameters:** None  
+**URL:** /api/bins/  
+**Request Body:**  
 ```json
 
 {
@@ -53,10 +53,10 @@ The MongoDB database contains data about bins (waste containers), with the follo
 ```
 
 ### Updating an existing bin
-**HTTP Method:** PUT
-**Parameters:** id
-**URL:** /api/bins/{id}
-**Request Body:**
+**HTTP Method:** PUT  
+**Parameters:** id  
+**URL:** /api/bins/{id}  
+**Request Body:**  
 ```json
 
 {
@@ -69,10 +69,10 @@ The MongoDB database contains data about bins (waste containers), with the follo
 ```
 
 ### Deleting an existing bin
-**HTTP Method:** DELETE
-**Parameters:** id
-**URL:** /api/bins/{id}
-**Request Body:**
+**HTTP Method:** DELETE  
+**Parameters:** id  
+**URL:** /api/bins/{id}  
+**Request Body:**  
 ```json
 
 {
