@@ -5,7 +5,7 @@ This is a REST API written in GoLang, that connects to a MongoDB database cluste
 
 The MongoDB database contains data about bins (waste containers), with the following attributes:
 
-| Attribute | Type |
+| Attribute               | Type |
 | ID                      | string |
 | Name                    | string |
 | Longitude               | float64 |
@@ -28,7 +28,7 @@ The MongoDB database contains data about bins (waste containers), with the follo
 ```json
 
 {
-    "distance": 3000, // In metres
+    "distance": 3000, // in metres
     "longitude": -9.7263177,
     "latitude": 52.2835895,
     "material": "plastic"
@@ -52,7 +52,7 @@ The MongoDB database contains data about bins (waste containers), with the follo
 
 ```
 
-### Updating an existing bin
+### Updating an existing bin with a given ID
 **HTTP Method:** PUT  
 **Parameters:** id  
 **URL:** /api/bins/{id}  
@@ -68,7 +68,7 @@ The MongoDB database contains data about bins (waste containers), with the follo
 
 ```
 
-### Deleting an existing bin
+### Deleting an existing bin with a given ID
 **HTTP Method:** DELETE  
 **Parameters:** id  
 **URL:** /api/bins/{id}  
