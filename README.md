@@ -21,7 +21,7 @@ The MongoDB database contains data about bins (waste containers), with the follo
 ## Usage Examples
 
 ### Getting bins with given distance and given material
-**HTTP Method:** GET
+**HTTP Method:** GET  
 **Parameters:** None
 **URL:** /api/bins/
 **Request Body:**
