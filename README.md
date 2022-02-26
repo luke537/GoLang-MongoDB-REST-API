@@ -12,10 +12,12 @@ The MongoDB database contains data about bins (waste containers), with the follo
 | Latitude                | float64 |
 | Accepted Materials      | string[] |
 
-| Name     | Character |
-| ---      | ---       |
-| Backtick | `         |
-| Pipe     | \|        |
+| Attribute     | Character |
+| ID      | ---       |
+| Name | `         |
+| Longitude | `         |
+| Latitude | `         |
+| Accepted Materials | `         |
 
 ## API Functions
 - Get all bins within a specified distance (in metres) and that contain a given waste material
