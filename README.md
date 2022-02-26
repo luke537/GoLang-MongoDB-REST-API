@@ -4,20 +4,13 @@
 This is a REST API written in GoLang, that connects to a MongoDB database cluster, providing full CRUD functionality.
 
 The MongoDB database contains data about bins (waste containers), with the following attributes:
-
-| Attribute               | Type |
-| ID                      | string |
-| Name                    | string |
-| Longitude               | float64 |
-| Latitude                | float64 |
-| Accepted Materials      | string[] |
-
-| Attribute     | Character |
-| ID      | ---       |
-| Name | `         |
-| Longitude | `         |
-| Latitude | `         |
-| Accepted Materials | `         |
+| **Attribute**      | **Type** |
+|--------------------|----------|
+| ID                 | string   |
+| Name               | string   |
+| Longitude          | float64  |
+| Latitude           | float64  |
+| Accepted Materials | []string |
 
 ## API Functions
 - Get all bins within a specified distance (in metres) and that contain a given waste material
